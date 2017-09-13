@@ -35,6 +35,7 @@ func main() {
 
 	if err != nil {
 		fmt.Println(err.Error())
+		fmt.Println(c, err.Error())
 	} else {
 		fmt.Printf("%d + %d = %d", a, b, c)
 	}
