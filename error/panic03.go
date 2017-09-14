@@ -1,4 +1,4 @@
-//Go panic, defer, recover 的异常处理
+//Go error（错误） panic（异常）, defer, recover 的异常处理
 package main
 
 import (

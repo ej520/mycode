@@ -36,7 +36,7 @@ func test_panic_ret() (int, error) {
 	return ret, err // 普通错误值返回,
 }
 func main() {
-	ret, err := test_panic_ret()
+	ret, err := test_panic_ret() //调用后，函数抛出异常，程序中断。 后面的不执行
 	fmt.Println("start print")
 	fmt.Println(ret, err) //打印语句
 	fmt.Println("end print")
